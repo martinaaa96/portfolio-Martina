@@ -212,7 +212,7 @@ top:-25px;
     left: 0;
     z-index: 99;
 
-}
+} 
 
 .header .logo a {
     display: inline-block;
@@ -244,9 +244,9 @@ top:-25px;
     border-radius: 50%;
 }
 
-.header .hamburger-btn span {
+.header .hamburger-btn span { 
     display: block;
-    height: 3px;
+    height: 2px;
     width: 16px;
     background-color: var(--bg-black-900);
     position: relative;
@@ -278,7 +278,7 @@ top:-25px;
 .nav-menu {
     position: fixed;
     background-color: var(--bg-black-50);
-    padding: 0 15px 0;
+    padding: 0 15px;
     left: 0;
     top: 0;
     width: 100%;
@@ -357,7 +357,7 @@ top:-25px;
 }
 .home-section .full-screen{
    
-    padding: 0 50px ;
+    padding: 50px 0;
     min-height: 100vh;
 
 }
@@ -365,7 +365,7 @@ top:-25px;
 .home-section .home-img{
 flex: 0 0 50%;
 max-width: 50%;
-padding: 15px 0;
+padding: 0 15px ;
 
 
 }
