@@ -436,7 +436,7 @@ padding: 15px;
 
 .about-section{
     
-    padding: 80px 0 80px;
+    padding: 80px 0 0;
     min-height: 100vh;
 
 }
@@ -528,19 +528,24 @@ font-size: 16px;
 
     flex: 0 0 100% ;
     max-width: 100% ;
+text-align: center;
 
+}
+.about-section .skills{
+    padding: 0 0 40px;
 }
 .about-section .skills .skill-item{
     flex: 0 0 50%;
     max-width: 50%;
     padding:0 15px ;
-}
-.about-section .tab-content h1{
-    font-size: 40px;
-    font-weight: 500;
-    color: var(--text-black-900); 
-    margin: 0 4px;
-    text-transform: capitalize;
-    text-align: center;
+    margin: 0 0 40px;
 
 }
+.about-section .skills .skill-item p{
+    font-size: 16px;
+    color: var(--text-black-600);
+    text-transform: capitalize;
+margin:10px;
+
+}
+
