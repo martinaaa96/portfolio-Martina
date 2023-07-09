@@ -579,9 +579,12 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
+display: none;
 
 }
-
+.about-section .tab-content.active{
+display: block;
+}
 .about-section .skills {
     padding: 0 0 40px;
 }
