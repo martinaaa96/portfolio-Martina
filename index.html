@@ -1,269 +1,46 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <title>Personal Portfolio Website</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <!-- font awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <!-- main css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creative CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
 </head>
 
-<body>
-    <!-- header start -->
-    <header class="header">
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="logo">
-                    <a href="index.html">M</a>
-                </div>
-                <div class="hamburger-btn outer-shadow hover-in-shadow">
-                    <span></span>
-                </div>
-
-            </div>
-        </div>
-    </header>
-    <!-- header end -->
-
-    <!-- nav start  -->
-    <nav class="nav-menu">
-        <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-        <div class="nav-menu-inner">
-            <ul>
-                <li><a href="#" class="inner-shadow active">Home</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">About</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Services</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">Portfolio</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">test</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">contact</a></li>
+          <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip"></a>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+                class="navbar-toggler-bar bar3"></span></button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Edication</a></li>
             </ul>
+          </div>
         </div>
-    </nav>
-    <!-- nav end  -->
-
-
-    <!--- home section start ------>
-    <section class="home-section section">
-        <!----- effect wrap start ------>
-        <div class="effect-wrap">
-            <div class="effect effect-1">
-            </div>
-            <div class="effect effect-2">
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div>
-            </div>
-            <div class="effect effect-3">
-            </div>
-            <div class="effect effect-4">
-            </div>
-
-        </div>
-
-        <!----- effect wrap end ------>
-        <div class="container">
-            <div class="row full-screen align-items-center">
-                <div class="home-text">
-                    <h1> Hello <h1>
-                    <h2> I`m Martina Vangelova</h2>
-                    <h1>............... <h1>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow"> More About Me </a>
-                </div>
-                <div class="home-img">
-                    <div class="img-box inner-shadow">
-                        <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--- home section end ------>
-
-    <!--- about  section start ------>
-    <section class="about-section section">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2 data-heading="main info">About Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="about-img">
-                    <div class="img-box inner-shadow">
-                        <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
-
-                    </div>
-                    <!------ Social Links start ------>
-                    <div class="social-links">
-                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-github"></i></a>
-
-                    </div>
-                    <!------ Social Links end ------>
-
-                </div>
-
-                <div class="about-info">
-                    <p><span>My name is Martina Vangelova.Motivation letter here write .....</span>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, numquam.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum ratione neque ab?
-                        Aspernatur, praesentium.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, alias.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere,
-                        ducimus! Iste repellendus temporibus voluptas et?</p>
-                    <a href="cv.pdf" class="btn-1 hover-in-shadow">Download CV</a>
-                    <a href="mailto:mvangelova96@gmail.com" class="btn-1 hover-in-shadow">mvangelova96@gmail.com</a>
-                    <a class="btn-1 hover-in-shadow">+359893910849</a>
-
-                </div>
-
-            </div>
-            <!------  about tabs start ------>
-            <div class="row">
-                <div class="about-tabs">
-                    <span class="tab-item outer-shadow active" data-target=".skills">Skills</span>
-                    <span class="tab-item" data-target=".education">Education</span>
-                    <span class="tab-item" data-target=".courses">Courses</span>
-                </div>
-            </div>
-            <!------  about tabs end ------>
-            <!------  skills  start ------>
-            <div class="row">
-<div class="skills tab-content active">
-    <div class="row">
-        <!------ skills item start ------>
-        <div class="skill-item">
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-
-        </div>
-        <!------  skills item end  ------>
-        <!------ skills item start ------>
-        <div class="skill-item">
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-            <p>JAVASCRIPT</p>
-            
-        </div>
-        <!------  skills item end  ------>
+      </nav>
     </div>
-</div>
-</div>
-       <!------  skills end  ------>
-<!------ education start  ------->
-<div class="row">
-    <div class="education tab-content">
-        <div class="row">
-            <div class="timeline">
-                <div class="row">
-                    <!------- timeline item start ------->
-<div class="timeline-item">
-    <div class="timeline-item-inner outer-shadow">
-        <i class="icon fas fa-graduation-cap"></i>
-        <span>February 2022 - April 2023</span>
-        <h3>JS Web Developer</h3>
-        <h4>SOFTWARE UNIVERSITY</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, error.</p>
-
-    </div>
-</div>
-
-                      <!------- timeline item end ------->
-                      <!------- timeline item start ------->
-<div class="timeline-item">
-    <div class="timeline-item-inner outer-shadow">
-        <i class=" icon fas fa-graduation-cap"></i>
-        <span>February 2022 - April 2023</span>
-        <h3>JS Web Developer</h3>
-        <h4>SOFTWARE UNIVERSITY</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, error.</p>
-
-    </div>
-</div>
-
-                      <!------- timeline item end ------->
-                      
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!------ education start  ------->
-
-
-<!------ courses start   ------->
-<div class="row">
-    <div class="education tab-content">
-        <div class="row">
-            <div class="timeline">
-                <div class="row">
-                    
-                    <!------- timeline item start ------->
-<div class="timeline-item">
-    <div class="timeline-item-inner outer-shadow">
-        <i class="icon fa fa-certificate"></i>
-       <h3> <a href=""> PROGRAMMING BASICS WITH JAVASCRIPT </a></h3>
-       
-     </div>
-</div>
-                      <!------- timeline item end ------->
-                      <!------- timeline item start ------->
-<div class="timeline-item">
-    <div class="timeline-item-inner outer-shadow">
-        <i class=" icon fa fa-certificate"></i>
-        <h3> <a href="courses/Programming Fundamentals with JavaScript - September 2022 - Certificate.pdf" >JS Fundamentals</a></h3>   
-    </div>
-</div>
-                      <!------- timeline item end ------->
-                                            <!------- timeline item start ------->
-<div class="timeline-item">
-    <div class="timeline-item-inner outer-shadow">
-        <i class=" icon fa fa-certificate"></i>
-        <h3> <a href="courses/JS Advanced - September 2022 - Certificate.pdf"> JS ADVANCED </a></h3>   
-    </div>
-</div>
-                      <!------- timeline item end ------->
-                                            <!------- timeline item start ------->
-<div class="timeline-item">
-    <div class="timeline-item-inner outer-shadow">
-        <i class=" icon fa fa-certificate"></i>
-   
-        <h3> <a href="courses/JS Applications - October 2022 - Certificate.pdf"> JS APPLICATION</a></h3>   
-    </div>
-</div>
-                      <!------- timeline item end ------->
-<!------- timeline item start ------->
-<div class="timeline-item">
-    <div class="timeline-item-inner outer-shadow">
-        <i class=" icon fa fa-certificate"></i>
-       <h3> <a href="courses/ReactJS - February 2023 - Certificate.pdf"> REACTJS</a></h3>   
-    </div>
-</div>
-                      <!------- timeline item end ------->
-                      
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!------ courses end  ------->
-        </div>
-    </section>
-    <!--- about  section end ------>
-    <!-- main js -->
-    <script src="js/main.js"></script>
-    <!-- style switcher js -->
-    <script src="js/style-switcher.js"></script>
-</body>
-
-</html>
+  </header>
