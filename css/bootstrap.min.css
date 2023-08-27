@@ -3266,7 +3266,7 @@ tbody.collapse.show {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 1rem
+    padding: .5rem 1rem;
 }
 
 .navbar>.container,
@@ -3289,7 +3289,7 @@ tbody.collapse.show {
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .navbar-nav {
@@ -3297,7 +3297,7 @@ tbody.collapse.show {
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
 }
 
 .navbar-nav .nav-link {

@@ -1293,7 +1293,7 @@
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #888;
+  background-color: #bc796a;
   color: #FFFFFF;
 }
 
@@ -1319,7 +1319,7 @@
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle,
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle:focus,
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle:hover {
-  background-color: #979797;
+  background-color: #c28a8a;
   color: #FFFFFF;
   box-shadow: none;
 }
@@ -1499,8 +1499,9 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #378C3F;
-  color: #FFFFFF;
+  background-color: #8eb5a8;
+  color: #141111;
+  font-weight: bold;
 }
 
 .btn-primary:hover,
@@ -1514,7 +1515,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color: #728e79;
   color: #FFFFFF;
   box-shadow: none;
 }
@@ -2891,12 +2892,12 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #0f100f;
 }
 
 a:hover,
 a:focus {
-  color: #378C3F;
+  color: #658a69;
 }
 
 h1,
@@ -3176,7 +3177,7 @@ body {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #378C3F;
+  background-color: #8eb5a8;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -3340,7 +3341,7 @@ body {
 }
 
 .navbar a:not(.btn):not(.dropdown-item) {
-  color: #FFFFFF;
+  color: #040404;
 }
 
 .navbar p {
@@ -3410,7 +3411,7 @@ body {
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):focus,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):hover,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):active {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color:rgba(111, 37, 37, 0.2);
   border-radius: 0.1875rem;
 }
 
@@ -3488,23 +3489,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
-}
-
-.bg-info {
-  background-color: #2CA8FF !important;
-}
-
-.bg-success {
-  background-color: #18ce0f !important;
-}
-
-.bg-danger {
-  background-color: #FF3636 !important;
-}
-
-.bg-warning {
-  background-color: #FFB236 !important;
+  background-color: #c7816d !important;
 }
 
 .bg-white {
@@ -3588,13 +3573,6 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.dropdown-menu.dropdown-info {
-  background-color: #1da2ff;
-}
-
-.dropdown-menu.dropdown-info:before {
-  color: #1da2ff;
-}
 
 .dropdown-menu.dropdown-info .dropdown-header:not([href]):not([tabindex]) {
   color: rgba(255, 255, 255, 0.8);
@@ -3613,13 +3591,7 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.dropdown-menu.dropdown-danger {
-  background-color: #ff2727;
-}
 
-.dropdown-menu.dropdown-danger:before {
-  color: #ff2727;
-}
 
 .dropdown-menu.dropdown-danger .dropdown-header:not([href]):not([tabindex]) {
   color: rgba(255, 255, 255, 0.8);
@@ -3663,13 +3635,6 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.dropdown-menu.dropdown-warning {
-  background-color: #ffac27;
-}
-
-.dropdown-menu.dropdown-warning:before {
-  color: #ffac27;
-}
 
 .dropdown-menu.dropdown-warning .dropdown-header:not([href]):not([tabindex]) {
   color: rgba(255, 255, 255, 0.8);
@@ -3734,22 +3699,6 @@ body {
 
 .alert.alert-success {
   background-color: rgba(24, 206, 15, 0.8);
-}
-
-.alert.alert-danger {
-  background-color: rgba(255, 54, 54, 0.8);
-}
-
-.alert.alert-warning {
-  background-color: rgba(255, 178, 54, 0.8);
-}
-
-.alert.alert-info {
-  background-color: rgba(44, 168, 255, 0.8);
-}
-
-.alert.alert-primary {
-  background-color: rgba(249, 99, 50, 0.8);
 }
 
 .alert .alert-icon {
@@ -4745,7 +4694,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .footer ul li a {
-  color: inherit;
+  color: #000;
   padding: 0.5rem;
   font-size: 0.8571em;
   text-transform: uppercase;
@@ -5143,7 +5092,7 @@ Created using IcoMoon - icomoon.io
   background-position: center center;
   width: 100%;
   height: 100%;
-
+ 
 }
 
 .page-header footer {
@@ -5166,7 +5115,7 @@ Created using IcoMoon - icomoon.io
   transform: translate(-50%, -50%);
   text-align: center;
   padding: 0 15px;
-  color: #FFFFFF;
+  color: #040404;
   width: 100%;
   max-width: 880px;
 }
@@ -5621,12 +5570,12 @@ Created using IcoMoon - icomoon.io
   }
 
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
+    background: #db7c61;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -5646,7 +5595,7 @@ Created using IcoMoon - icomoon.io
   }
 
   .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link:not(.btn) {
-    color: #FFFFFF;
+    color: #141111;
   }
 
   .sidebar-collapse .navbar-collapse .dropdown-menu .dropdown-item {
@@ -5731,9 +5680,7 @@ Created using IcoMoon - icomoon.io
     transition: width .2s linear;
   }
 
-  .sidebar-collapse .navbar.bg-white:not(.navbar-transparent) .navbar-toggler-bar {
-    background: #888;
-  }
+ 
 
   .sidebar-collapse .navbar .toggled .navbar-toggler-bar {
     width: 24px;
@@ -6098,6 +6045,7 @@ Created using IcoMoon - icomoon.io
     height: 1px;
     border-radius: 1px;
     background: #FFFFFF;
+
   }
 
   .bootstrap-collapse .navbar .navbar-toggler-bar+.navbar-toggler-bar {
@@ -7248,7 +7196,7 @@ Created using IcoMoon - icomoon.io
   width: 180px;
   padding: 0;
   margin: 0;
-  border: 15px solid transparent;
+
   z-index: 9999;
   transition: all .3s ease-out;
 }
