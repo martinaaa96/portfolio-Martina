@@ -21,7 +21,7 @@
     </noscript>
 </head>
 
-<body id="top">
+<body>
     <header>
         <div class="profile-page sidebar-collapse">
             <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
@@ -39,7 +39,7 @@
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Edication</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
                         </ul>
                     </div>
                 </div>
@@ -67,11 +67,12 @@
                         <div class="section">
                             <div class="container">
                                 <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
-                                        href="https://github.com/martinaaa96" rel="tooltip"
-                                        title="Follow me on Github"><i class="fa fa-github"></i></a><a
+                                        href="https://github.com/martinaaa96" rel="tooltip" title="Follow me on Github"
+                                        target="_blank"><i class="fa fa-github"></i></a><a
                                         class="btn btn-default btn-round btn-lg btn-icon"
                                         href="https://bg.linkedin.com/in/martina-vangelova-391b58207" rel="tooltip"
-                                        title="Follow me on Linkedin"><i class="fa fa-linkedin"></i></a><a
+                                        title="Follow me on Linkedin" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a><a
                                         class="btn btn-default btn-round btn-lg btn-icon"
                                         href="mailto:mvangelova96@gmail.com" rel="tooltip"
                                         title="Follow me on Google+"><i class="fa fa-google-plus"></i></a></div>
@@ -88,10 +89,14 @@
                                 <div class="card-body">
                                     <div class="h4 mt-0 title">About</div>
                                     <p>Hello! I am Martina Vangelova.</p>
-                                    <p>After discovering my love and passion for software engineering, I have decided to turn a new chapter in my life.
-                                        I've worked in the sales and business sectors for a number of years, developing my communication, problem-solving, quick-learning, and adaptability skills.
-                                        A great team player who operates methodically and patiently in a busy environment.A person who prioritizes getting things done on time and adhering to deadlines.
-                                    </a></p>
+                                    <p>After discovering my love and passion for software engineering, I have decided to
+                                        turn a new chapter in my life.
+                                        I've worked in the sales and business sectors for a number of years, developing
+                                        my communication, problem-solving, quick-learning, and adaptability skills.
+                                        A great team player who operates methodically and patiently in a busy
+                                        environment.A person who prioritizes getting things done on time and adhering to
+                                        deadlines.
+                                        </a></p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12">
@@ -181,18 +186,7 @@
                                     <div class="col-md-6">
                                         <div class="cc-porfolio-image img-raised" data-aos="fade-up"
                                             data-aos-anchor-placement="top-bottom">
-                                            <a href="#web-development">
-                                                <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">NodeJs Project</div>
-                                                        <p>Softuni Project Defence</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom">
-                                            <a href="https://github.com/martinaaa96/cake-recipe-react">
+                                            <a href="https://github.com/martinaaa96/cake-recipe-react" target="_blank">
                                                 <figure class="cc-effect"><img src="images/projects/react-project.png"
                                                         alt="Image" />
                                                     <figcaption>
@@ -202,12 +196,24 @@
                                                 </figure>
                                             </a>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        
                                         <div class="cc-porfolio-image img-raised" data-aos="fade-up"
                                             data-aos-anchor-placement="top-bottom">
-                                            <a href="https://github.com/martinaaa96/NodeJs_exam">
+                                            <a href="https://github.com/martinaaa96/REST_API" target="_blank">
+                                                <figure class="cc-effect"><img src="images/projects/furniture.png"
+                                                        alt="Image" />
+                                                    <figcaption>
+                                                        <div class="h4">REST API</div>
+                                                        <p>Softuni Project Defence</p>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+
+                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom">
+                                            <a href="https://github.com/martinaaa96/NodeJs_exam" target="_blank">
                                                 <figure class="cc-effect"><img src="images/projects/nodeJs.png"
                                                         alt="Image" />
                                                     <figcaption>
@@ -263,6 +269,7 @@
 
                     </div>
                 </div>
+
                 <div class="section" id="certification">
                     <div class="container cc-education">
                         <div class="h4 text-center mb-4 title">Certifications</div>
@@ -276,16 +283,34 @@
                                 </div>
                                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                                     <div class="card-body">
-                                        <div class="h5"><a
-                                                href="./images/certifications/ReactJS - February 2023 - Certificate.pdf">REACTJS</a>
+                                        <div class="h5"><a href="#" id="show-pdf">REACTJS</a></div>
+                                        <div class="h5" id="pdf-container" style="display: none;">
+                                            <iframe id="pdf-iframe"
+                                                src="images/certifications/ReactJS - February 2023 - Certificate.pdf"
+                                                width="700" height="875"></iframe>
                                         </div>
-                                        <div class="h5"><a
-                                                href="./images/certifications/JS Back-End - May 2023 - Certificate.pdf">NODEJS</a>
+                                        <div class="h5"><a href="#" id="show-pdf-1">NODEJS</a></div>
+                                        <div class="h5" id="pdf-container-1" style="display: none;">
+                                            <iframe id="pdf-iframe-1"
+                                                src="images/certifications/JS Back-End - May 2023 - Certificate.pdf"
+                                                width="700" height="875"></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <script>
+                            document.getElementById("show-pdf").addEventListener("click", function (event) {
+                                event.preventDefault();
+                                document.getElementById("pdf-container").style.display = "block";
+                            });
+
+                            document.addEventListener("click", function (event) {
+                                if (event.target !== document.getElementById("pdf-container") && event.target !== document.getElementById("show-pdf")) {
+                                    document.getElementById("pdf-container").style.display = "none";
+                                }
+                            });
+                        </script>
                         <div class="card">
                             <div class="row">
                                 <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
@@ -297,12 +322,18 @@
                                 </div>
                                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                                     <div class="card-body">
-                                        <div class="h5"><a
-                                                href="./images/certifications/JS Advanced - September 2022 - Certificate.pdf">JS
-                                                ADVANCED</a></div>
-                                        <div class="h5"><a
-                                                href="./images/certifications/JS Applications - October 2022 - Certificate.pdf">JS
-                                                APPLICATION</a></div>
+                                        <div class="h5"><a href="#" id="show-pdf-2">JS APPLICATION</a></div>
+                                        <div class="h5" id="pdf-container-2" style="display: none;">
+                                            <iframe id="pdf-iframe-2"
+                                                src="images/certifications/JS Applications - October 2022 - Certificate.pdf"
+                                                width="700" height="875"></iframe>
+                                        </div>
+                                        <div class="h5"><a href="#" id="show-pdf-3">JS ADVANCED</a></div>
+                                        <div class="h5" id="pdf-container-3" style="display: none;">
+                                            <iframe id="pdf-iframe-3"
+                                                src="images/certifications/JS Advanced - September 2022 - Certificate.pdf"
+                                                width="700" height="875"></iframe>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -317,9 +348,12 @@
                                 </div>
                                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                                     <div class="card-body">
-                                        <div class="h5"><a
-                                                href="./images/certifications/Programming Fundamentals with JavaScript - September 2022 - Certificate.pdf">JS
-                                                FUNDAMENTALS</a></div>
+                                        <div class="h5"><a href="#" id="show-pdf-4">JS FUNDAMENTALS</a></div>
+                                        <div class="h5" id="pdf-container-4" style="display: none;">
+                                            <iframe id="pdf-iframe-4"
+                                                src="images/certifications/Programming Fundamentals with JavaScript - September 2022 - Certificate.pdf"
+                                                width="700" height="875"></iframe>
+                                        </div>
                                         <div class="h5">PROGRAMMING BASICS WITH JAVASCRIPT</div>
                                     </div>
                                 </div>
@@ -329,6 +363,40 @@
                 </div>
             </div>
         </div>
+        <script>
+            document.getElementById("show-pdf-1").addEventListener("click", function (event) {
+                event.preventDefault();
+                document.getElementById("pdf-container-1").style.display = "block";
+            });
+
+            document.getElementById("show-pdf-2").addEventListener("click", function (event) {
+                event.preventDefault();
+                document.getElementById("pdf-container-2").style.display = "block";
+            });
+            document.getElementById("show-pdf-3").addEventListener("click", function (event) {
+                event.preventDefault();
+                document.getElementById("pdf-container-3").style.display = "block";
+            });
+            document.getElementById("show-pdf-4").addEventListener("click", function (event) {
+                event.preventDefault();
+                document.getElementById("pdf-container-4").style.display = "block";
+            });
+
+            document.addEventListener("click", function (event) {
+                if (event.target !== document.getElementById("pdf-container-1") && event.target !== document.getElementById("show-pdf-1")) {
+                    document.getElementById("pdf-container-1").style.display = "none";
+                }
+                if (event.target !== document.getElementById("pdf-container-2") && event.target !== document.getElementById("show-pdf-2")) {
+                    document.getElementById("pdf-container-2").style.display = "none";
+                }
+                if (event.target !== document.getElementById("pdf-container-3") && event.target !== document.getElementById("show-pdf-3")) {
+                    document.getElementById("pdf-container-3").style.display = "none";
+                }
+                if (event.target !== document.getElementById("pdf-container-4") && event.target !== document.getElementById("show-pdf-4")) {
+                    document.getElementById("pdf-container-4").style.display = "none";
+                }
+            });
+        </script>
         <footer class="footer">
             <div class="h4 title text-center">Martina Vangelova</div>
             <div class="text-center text-muted">
@@ -342,6 +410,7 @@
         <script src="js/now-ui-kit.js?ver=1.1.0"></script>
         <script src="js/aos.js?ver=1.1.0"></script>
         <script src="scripts/main.js?ver=1.1.0"></script>
+
 </body>
 
 </html>
