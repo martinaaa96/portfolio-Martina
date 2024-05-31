@@ -112,12 +112,7 @@ section {
     font-size: 2rem;
     margin-bottom: 20px;
 }
-.card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 20px;
-}
+
 .row-container {
     display: flex;
     flex-wrap: wrap;
@@ -696,9 +691,11 @@ pre code {
         max-width: calc(100% / 2 - 20px);
     }
 }
-
-
-
+@media (max-width: 512px) {
+    .progress-badge img {
+        max-width: calc(100% / 2 - 40px);
+    }
+}
 .container-fluid {
     width: 100%;
     margin-right: auto;
