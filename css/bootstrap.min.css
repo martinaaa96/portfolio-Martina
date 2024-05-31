@@ -83,6 +83,8 @@ html {
     width: device-width
 }
 
+
+
 article,
 aside,
 dialog,
@@ -95,6 +97,35 @@ main,
 nav,
 section {
     display: block
+}
+
+
+/* skills */
+.section {
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.progress-container {
+    text-align: center;
+    margin: 10px;
 }
 
 body {
@@ -636,29 +667,30 @@ pre code {
     width: 100%
 }
 
-@media (min-width:576px) {
-    .container {
-        max-width: 540px
+@media (min-width: 576px) {
+    .progress-badge img {
+        max-width: 70px;
     }
 }
 
-@media (min-width:768px) {
-    .container {
-        max-width: 720px
+@media (min-width: 768px) {
+    .progress-badge img {
+        max-width: 80px;
     }
 }
 
-@media (min-width:992px) {
-    .container {
-        max-width: 960px
+@media (min-width: 992px) {
+    .progress-badge img {
+        max-width: 90px;
     }
 }
 
-@media (min-width:1200px) {
-    .container {
-        max-width: 1140px
+@media (min-width: 1200px) {
+    .progress-badge img {
+        max-width: 100px;
     }
 }
+
 
 .container-fluid {
     width: 100%;
