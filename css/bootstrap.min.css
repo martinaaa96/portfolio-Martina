@@ -105,18 +105,19 @@ section {
     padding: 20px;
 }
 .container {
-    max-width: 1200px;
     margin: auto;
 }
 .title {
     font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 .card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-bottom: 20px;
 }
 .row-container {
     display: flex;
@@ -126,6 +127,13 @@ section {
 .progress-container {
     text-align: center;
     margin: 10px;
+}
+.progress-badge {
+    max-width: 80px; /* Default max-width */
+}
+.progress-badge img {
+    width: 100%;
+    height: auto;
 }
 
 body {
