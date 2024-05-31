@@ -669,25 +669,25 @@ pre code {
 
 @media (min-width: 576px) {
     .progress-badge img {
-        max-width: 70px;
+        max-width: 60px;
     }
 }
 
 @media (min-width: 768px) {
     .progress-badge img {
-        max-width: 80px;
+        max-width: 70px;
     }
 }
 
 @media (min-width: 992px) {
     .progress-badge img {
-        max-width: 90px;
+        max-width: 80px;
     }
 }
 
 @media (min-width: 1200px) {
     .progress-badge img {
-        max-width: 100px;
+        max-width: 90px;
     }
 }
 
