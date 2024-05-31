@@ -693,8 +693,7 @@ pre code {
 
 @media (max-width: 536px) {
     .progress-badge img {
-        max-width: calc(100% / 2 - 20px); /* Set the width of each image to fit two images in one row */
-        /* Subtracting 20px for margins and paddings */
+        max-width: calc(100% / 2 - 20px);
     }
 }
 
