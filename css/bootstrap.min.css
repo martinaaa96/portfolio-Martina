@@ -709,6 +709,11 @@ pre code {
     }
 }
 
+@media (max-width: 422px) {
+    .progress-badge img {
+        max-width: 50px;
+    }
+}
 .container-fluid {
     width: 100%;
     margin-right: auto;
