@@ -401,9 +401,9 @@
                                 </div>
                                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                                     <div class="card-body">
-                                        <div class="h5"><a href="#" id="show-pdf-4">Agile Essentials with Scrum</a></div>
-                                        <div class="h5" id="pdf-container-4" style="display: none;">
-                                            <iframe id="pdf-iframe-4"
+                                        <div class="h5"><a href="#" id="show-pdf-5">Agile Essentials with Scrum</a></div>
+                                        <div class="h5" id="pdf-container-5" style="display: none;">
+                                            <iframe id="pdf-iframe-5"
                                                 src="images/certifications/Agile Essentials with Scrum - February 2024 - Certificate.pdf"
                                                 width="700" height="875"></iframe>
                                         </div>
@@ -434,6 +434,10 @@
                 event.preventDefault();
                 document.getElementById("pdf-container-4").style.display = "block";
             });
+            document.getElementById("show-pdf-5").addEventListener("click", function (event) {
+                event.preventDefault();
+                document.getElementById("pdf-container-5").style.display = "block";
+            });
 
             document.addEventListener("click", function (event) {
                 if (event.target !== document.getElementById("pdf-container-1") && event.target !== document.getElementById("show-pdf-1")) {
@@ -447,6 +451,9 @@
                 }
                 if (event.target !== document.getElementById("pdf-container-4") && event.target !== document.getElementById("show-pdf-4")) {
                     document.getElementById("pdf-container-4").style.display = "none";
+                }
+                if (event.target !== document.getElementById("pdf-container-5") && event.target !== document.getElementById("show-pdf-5")) {
+                    document.getElementById("pdf-container-5").style.display = "none";
                 }
             });
         </script>
