@@ -123,6 +123,11 @@ section {
     margin: 10px;
 }
 
+.progress-badge img {
+    width: 100%;
+    height: auto;
+    max-width: 80px;
+}
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -688,12 +693,19 @@ pre code {
 
 @media (max-width: 536px) {
     .progress-badge img {
-        max-width: calc(100% / 2 - 20px);
+        max-width: 50px;
     }
 }
-@media (max-width: 522px) {
+
+@media (min-width: 537px) and (max-width: 767px) {
     .progress-badge img {
-        max-width: calc(100% / 2 - 20px);
+        max-width: 70px; 
+    }
+}
+
+@media (min-width: 768px) {
+    .progress-badge img {
+        max-width: 80px; 
     }
 }
 
