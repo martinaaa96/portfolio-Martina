@@ -691,11 +691,12 @@ pre code {
         max-width: calc(100% / 2 - 20px);
     }
 }
-@media (max-width: 512px) {
+@media (max-width: 522px) {
     .progress-badge img {
-        max-width: calc(100% / 2 - 40px);
+        max-width: calc(100% / 2 - 20px);
     }
 }
+
 .container-fluid {
     width: 100%;
     margin-right: auto;
