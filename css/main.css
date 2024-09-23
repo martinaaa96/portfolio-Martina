@@ -7192,8 +7192,8 @@ Created using IcoMoon - icomoon.io
 .cc-profile-image img {
   position: relative;
   border-radius: 40%;
-  height: 240px;
-  width: 220px;
+  height: 180px;
+  width: 180px;
   padding: 0;
   margin: 0;
 
@@ -7210,7 +7210,7 @@ Created using IcoMoon - icomoon.io
 
 /* Profile Page Social button Style */
 .button-container .btn-default {
-  margin-right: 8px;
+  margin-right: 12px;
 }
 
 /* Professional Skills Style */
